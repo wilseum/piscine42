@@ -1,0 +1,55 @@
+#include <unistd.h>
+
+void	ft_putnbr(int nb)
+{
+	long lnb;
+	char temp;
+
+	lnb = nb;
+	if (lnb < 0)
+	{
+		lnb *= -1;
+		write(1, "-", 1);
+	}
+	if (lnb > 9)
+		ft_putnbr(lnb / 10);
+	temp = '0' + (char)(lnb % 10);
+	write(1, &temp, 1);
+}
+
+void	ft_print_comb2(void)
+{
+	int first;
+	int second;
+	int need_comma = 0;
+
+	first = 0;
+	while (first <= 99)
+	{
+		second = first + 1;
+		while (second <= 99)
+		{
+			if (need_comma)
+				write(1, ", ", 2);
+			else
+				need_comma = 1;
+
+			if (first <= 9)
+				write(1, "0", 1);
+			ft_putnbr(first);
+			write(1, " ", 1);
+			if (second <= 9)
+				write(1, "0", 1);
+			ft_putnbr(second);
+
+			++second;
+		}
+		++first;
+	}
+}
+
+int main()
+{
+	ft_print_comb2();
+	return 0;
+}
