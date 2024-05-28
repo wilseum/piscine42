@@ -11,11 +11,17 @@ Pas de fonctions avancées : Nous devions éviter l'utilisation de fonctions ava
 Ce dépôt contient plusieurs fichiers C, chacun correspondant à une fonction native que j'ai recréée. Voici une liste non exhaustive des fonctions présentes :
 
 ft_strlen.c : Recréation de la fonction strlen, qui calcule la longueur d'une chaîne de caractères.
+
 ft_strcpy.c : Recréation de la fonction strcpy, qui copie une chaîne de caractères dans une autre.
+
 ft_strcmp.c : Recréation de la fonction strcmp, qui compare deux chaînes de caractères.
+
 ft_strdup.c : Recréation de la fonction strdup, qui duplique une chaîne de caractères en allouant la mémoire nécessaire.
+
 ft_atoi.c : Recréation de la fonction atoi, qui convertit une chaîne de caractères en un entier.
+
 ft_isalpha.c : Recréation de la fonction isalpha, qui vérifie si un caractère est une lettre alphabétique.
+
 ft_isdigit.c : Recréation de la fonction isdigit, qui vérifie si un caractère est un chiffre.
 
 Chaque fichier C contient :
