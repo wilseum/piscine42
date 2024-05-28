@@ -1,6 +1,6 @@
 # piscine42
 
-Bienvenue sur mon dépôt GitHub consacré aux exercices que j'ai réalisés lors de la piscine de l'école 42 à Lyon en Aout 2023. Ce dépôt regroupe une série de fonctions que j'ai recréées en langage C, dans le cadre des défis proposés durant cette immersion intensive.
+Bienvenue sur mon dépôt GitHub consacré aux exercices que j'ai réalisés lors de la piscine de l'école 42 à Lyon en Aout 2023. Ce dépôt regroupe les dernières fonctions que j'ai recréées en langage C, dans le cadre des défis proposés durant cette immersion intensive.
 
 L'objectif principal de ces exercices était de recréer à l'identique certaines fonctions natives du langage C. Cela nous a permis de comprendre en profondeur le fonctionnement de ces fonctions, en les implémentant nous-mêmes. Les contraintes imposées étaient les suivantes :
 
